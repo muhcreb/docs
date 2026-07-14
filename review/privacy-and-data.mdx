@@ -1,0 +1,195 @@
+---
+title: "Assessing Privacy and Data Protection for Research"
+sidebarTitle: "Privacy & Data"
+description: "Legal guidance for REB representatives at a Québec hospital-based REB on Law 5, Law 25, the Civil Code, cross-border transfers, and breach notification in research protocols."
+---
+
+Privacy and data protection review is one of the most technically complex responsibilities a legal representative carries on a Québec hospital-based Research Ethics Board. Research protocols are subject to a layered framework of Québec statutes — Law 5, the _Civil Code of Québec_, and (residually) Law 25 — supplemented where relevant by federal legislation. Compliance failures can expose the hospital (établissement), investigators, and sponsors to CAI enforcement, civil liability under art. 1457 CCQ, and reputational harm. Your role is not to replace the institution's privacy officer or _responsable de l'accès à l'information_, but to identify legal gaps in the protocol before it receives REB approval.
+
+## Applicable Privacy Legislation
+
+Understanding which statute governs a given research protocol is the essential first step. The answer depends on the type of information involved, the nature of the organization holding it, and whether information will be communicated outside Québec.
+
+<CardGroup cols={2}>
+  <Card title="Law 5 — Health & Social Services Information" icon="hospital">
+    The **_Act Respecting Health and Social Services Information_** (Law 5, in force **July 1, 2024**) is the primary statute governing the collection, use, and communication of health and social services information held by bodies in Québec's health and social services network, including hospitals. Research use of this information requires either consent or approval by an **MSSS-designated REB** together with a written research agreement.
+  </Card>
+
+  <Card title="Civil Code arts. 20–25" icon="scale-balanced">
+    The **_Civil Code of Québec_**, arts. 20–25, is enforceable statutory law governing consent to research involving the human body — including the requirement of free, informed, and **written** consent (art. 20/24), special protections for minors and persons incapable of consent (art. 21), the right of withdrawal (art. 24), and non-commercialization (art. 25).
+  </Card>
+
+  <Card title="Law 25 (residual)" icon="landmark">
+    **Law 25** (amending Québec's private-sector privacy Act and the public-sector Access Act; phased implementation Sept. 22, 2022 → Sept. 22, 2024) applies as **residual** privacy law for personal information that falls outside Law 5's scope — for example, information held by a private-sector sponsor or by a public body outside the health and social services network. Where a protocol is jointly within Law 5 and Law 25, **Law 5 takes precedence** for the health and social services information it covers.
+  </Card>
+
+  <Card title="PIPEDA and TCPS2" icon="scroll">
+    **PIPEDA** may apply where a protocol involves inter-provincial or international commercial flows of personal information (e.g., a sponsor headquartered outside Québec, a foreign CRO). The federal **Bill C-27** private-sector reform died on the Order Paper when Parliament was prorogued in January 2025; PIPEDA remains the operative federal private-sector statute where it applies. **TCPS2 (Chapter 5)** sets Tri-Council ethical standards for privacy in research and applies as a condition of federal funding.
+  </Card>
+</CardGroup>
+
+<Info>
+  Federally funded research involving human participants must comply with TCPS2 as a condition of Tri-Council funding (CIHR, NSERC, SSHRC), regardless of the Québec framework. A protocol may satisfy Law 5 but still require REB review under TCPS2, and vice versa — the frameworks are complementary, not substitutable. In Québec, the **FRQ _Standards on the Ethical Conduct of Research Involving Humans_** apply in parallel.
+</Info>
+
+## Personal Information vs. De-identified and Anonymized Data
+
+The legal protections triggered by a protocol depend critically on whether the data qualifies as **personal information (or health and social services information under Law 5)**, whether it has been **de-identified** (still personal information if re-linkage is reasonably foreseeable), or whether it has been **anonymized** to Law 25's high standard.
+
+<Steps>
+  <Step title="Identify Whether Health & Social Services Information Is Involved">
+    Under Law 5, health and social services information means information collected or held by a body in the health and social services network about a person that concerns their physical or mental health, the provision of health or social services, or related administrative matters. This includes names, RAMQ numbers, diagnoses, clinical notes, imaging, and any combination of data elements that could reasonably identify an individual.
+  </Step>
+  <Step title="Assess the De-identification Standard">
+    Data is **de-identified** when direct identifiers have been removed but the information could still, in principle, be re-linked to an individual. De-identified information generally remains personal information under Law 25 and information subject to Law 5 protections. Assess this contextually — the same dataset may be de-identified in one context and re-identifiable in another (e.g., rare disease cohorts, small geographic units).
+  </Step>
+  <Step title="Assess the Anonymization Standard (Law 25)">
+    Under Law 25, information is **anonymized** only if it is, at all times, reasonably foreseeable in the circumstances that it can no longer irreversibly allow identification of the individual. This is a stringent, ongoing test — an initial anonymization can be defeated by later data linkage. Confirm the anonymization methodology has been validated by the institution's privacy officer or _responsable_.
+  </Step>
+  <Step title="Review the De-identification / Anonymization Methodology">
+    The protocol should specify the method used. Safe harbour frameworks adapted from HIPAA (U.S.) are often cited but do not automatically satisfy Québec standards. Confirm the method has been reviewed by the institution's privacy officer.
+  </Step>
+  <Step title="Assess Re-identification Risk">
+    Even ostensibly de-identified datasets may carry re-identification risk when linked with other publicly available data sources, when rare conditions are involved, or when the dataset is large and granular. Request a **privacy impact assessment (PIA / ÉFVP)** if re-identification risk is non-trivial or if information will leave Québec.
+  </Step>
+  <Step title="Confirm Data Classification in the Protocol">
+    The protocol must clearly classify all data elements as identifiable, coded (pseudonymized), de-identified, or anonymized, and must describe the governance measures corresponding to each class.
+  </Step>
+</Steps>
+
+<Tip>
+  **De-identification and anonymization thresholds in Québec are not numerically defined by statute** — unlike HIPAA's Safe Harbor standard, which specifies 18 enumerated identifiers. Under Law 5, Law 25, and TCPS2, the test is whether identification is "reasonably foreseeable" — and Law 25 raises the bar to **irreversibly** so for true anonymization. This means that a small cohort study involving a rare genetic condition may fail the de-identification standard even after removing names and RAMQ numbers. When reviewing such protocols, request a documented re-identification risk assessment from the investigator or a qualified privacy expert.
+</Tip>
+
+## Privacy Risk Assessment for Research Protocols
+
+<Steps>
+  <Step title="Confirm a Privacy Impact Assessment Has Been Conducted">
+    For any protocol involving a new information system project or the **communication of personal information outside Québec**, Law 25 requires a **PIA (ÉFVP)**. For protocols within Law 5's scope, the institution has parallel assessment obligations before implementing new information practices. Confirm the PIA has been completed by the institution's privacy officer / _responsable_ and submitted to the REB.
+  </Step>
+  <Step title="Evaluate the Legal Basis for Information Use">
+    Determine whether the protocol relies on:
+
+    - **Participant consent** (must be **written**, informed, free, and specific under art. 20/24 CCQ and Law 25),
+    - **Law 5 research authorization without consent** (requires approval by an **MSSS-designated REB** and a written research agreement with the establishment, plus demonstration that the research purpose cannot reasonably be achieved without identifiable information), or
+    - **Law 25 research communication without consent** (for information outside Law 5's scope — subject to the pathway used under the amended private-sector or public-sector Acts, including PIA and, where required, a compliant information-sharing agreement), or
+    - **Anonymized data** (no personal information; confirm the Law 25 anonymization standard is met). A protocol that collects identifiable information without a clearly identified legal basis must be flagged for revision.
+  </Step>
+  <Step title="Assess Data Minimization">
+    The protocol should collect only the minimum amount of personal information necessary to achieve the research objectives. Flag protocols that propose to collect broad categories of information (e.g., complete electronic medical records) when a narrower dataset would suffice. The principle of data minimization is recognized in Law 5, Law 25, PIPEDA, and TCPS2.
+  </Step>
+  <Step title="Review Retention and Destruction Schedules">
+    Confirm the protocol specifies: (a) how long identifiable data will be retained, (b) the legal authority or requirement for that retention period (e.g., Health Canada's clinical trial records retention requirements under the _Food and Drug Regulations_, Division 5), and (c) a documented method for secure destruction at the end of the retention period.
+  </Step>
+  <Step title="Evaluate Access Controls and Data Security">
+    Review whether the protocol describes role-based access controls, encryption standards, physical security of data storage, and restrictions on unauthorized secondary use of the data. See the Data Security section below.
+  </Step>
+</Steps>
+
+## Data Security Expectations
+
+The REB should expect research protocols to describe data security measures proportionate to the sensitivity of the data involved. As a legal reviewer, confirm the protocol addresses each of the following.
+
+<CardGroup cols={2}>
+  <Card title="Encryption" icon="lock">
+    Personal information stored electronically must be encrypted at rest and in transit using current industry standards (AES-256 or equivalent). Unencrypted personal information transmitted by email or stored on unencrypted portable devices is a significant privacy risk and a common finding in CAI complaints and breach investigations.
+  </Card>
+
+  <Card title="Access Controls" icon="key">
+    Access to identifiable data must be limited to authorized study personnel on a need-to-know basis. The protocol should describe how access will be granted, monitored, revoked upon departure, and audited. Shared passwords or group accounts are not acceptable.
+  </Card>
+
+  <Card title="Data Storage Location" icon="server">
+    The protocol must specify where data will be stored (on-premise institutional servers, cloud infrastructure, sponsor systems). For cloud storage, confirm compliance with data-residency expectations under Law 5 and Law 25 — personal information stored on servers **outside Québec** requires a documented PIA and appropriate contractual protections **before** the transfer begins.
+  </Card>
+
+  <Card title="Third-Party Data Processors" icon="handshake">
+    If a sponsor, CRO, or third-party vendor will process personal information, a written information-sharing / data-processing agreement must be in place. Confirm these agreements include appropriate privacy protections, audit rights, and breach notification obligations flowing back to the establishment.
+  </Card>
+</CardGroup>
+
+## Special Cases
+
+<Accordion title="Communication of Personal Information Outside Québec">
+  Research protocols that involve **communicating personal information outside Québec** — whether to a sponsor headquartered in another province, a U.S.-based CRO, a foreign co-investigator, or a cloud service provider operating outside Québec — are among the highest-frequency issues in industry-sponsored trials. You must assess them before the protocol is approved.
+
+  **Key legal considerations:**
+
+  **Law 25 — mandatory PIA (ÉFVP):** Before communicating personal information outside Québec, Law 25 requires a documented **Privacy Impact Assessment (Évaluation des facteurs relatifs à la vie privée, ÉFVP)** that considers the sensitivity of the information, the purpose of the communication, and the legal regime applicable in the destination jurisdiction. Where the assessment identifies risks, an information-sharing agreement with appropriate safeguards is required.
+
+  **Law 5:** For health and social services information within Law 5's scope, communication outside Québec is subject to Law 5's own conditions and the applicable ministerial framework, in addition to the Law 25 assessment considerations where residually applicable. Confirm the pathway with the establishment's _responsable de l'accès à l'information_.
+
+  **U.S. transfers:** Personal information transferred to the United States may be subject to U.S. government access authorities. This is a recognized privacy risk that must be documented in the ÉFVP and disclosed to participants in the consent form.
+
+  **GDPR considerations:** If any participants are located in the European Economic Area, or if data flows into EEA jurisdictions, GDPR may apply to the study. Flag this for the institution's privacy officer if applicable.
+
+  **Checklist for communications outside Québec:**
+
+  - Has an **ÉFVP** been completed and documented before the transfer?
+  - Is a written information-sharing / data-processing agreement in place with the recipient?
+  - Does the agreement require the recipient to notify the establishment of any breach?
+  - Have participants been informed in the consent form that their information will be communicated outside Québec, including the destination jurisdiction(s)?
+  - Are there any Health Canada or sponsor requirements that mandate particular data-handling practices for clinical trial data transferred outside Québec?
+
+  <Warning>
+    Do not approve a protocol that proposes to communicate identifiable participant information outside Québec solely on the basis that the recipient's system is "secure." Security and legal compliance are separate requirements. Confirm the ÉFVP has been completed and the legal basis for the transfer is documented — independently of the security assessment.
+  </Warning>
+</Accordion>
+
+<Accordion title="Breach Reporting Obligations">
+  Research protocols must include a plan for responding to privacy breaches involving participant data. As a legal reviewer, confirm this plan is realistic, designates responsible parties, and aligns with the institution's existing breach response policies.
+
+  **Applicable breach notification requirements:**
+
+  **Law 25 (private-sector and public-sector Acts):** Where a **confidentiality incident** presents a risk of serious injury, the organization or public body must **promptly notify the CAI and the affected individuals** and keep a register of confidentiality incidents. Notification obligations apply regardless of whether the incident occurred in Québec or through a service provider outside Québec.
+
+  **Law 5:** Bodies in the health and social services network have parallel obligations to declare confidentiality incidents involving health and social services information, to notify the affected individuals where there is a risk of serious injury, and to maintain a register. The establishment's _responsable_ coordinates this response.
+
+  **PIPEDA:** Where PIPEDA applies (e.g., an inter-provincial commercial data flow), the _Digital Privacy Act_ amendments require organizations to report to the Office of the Privacy Commissioner of Canada (OPC) and notify affected individuals of any breach of security safeguards presenting a **real risk of significant harm**.
+
+  **Sponsor reporting obligations:** Clinical trial agreements typically require the investigator to notify the sponsor of any privacy incident involving study data. Confirm that these contractual obligations are consistent with the establishment's Law 5 / Law 25 / PIPEDA obligations and do not delay required notifications to the CAI or OPC.
+
+  **The breach / incident response plan must include:**
+
+  - Identification of who is responsible for declaring an incident and initiating the response (typically the _responsable_ or delegated privacy officer)
+  - A timeline for internal escalation (to the establishment's _responsable_, legal counsel, and administration)
+  - Notification timelines for regulatory authorities (CAI, OPC as applicable)
+  - A process for notifying affected participants where required
+  - Documentation and record-keeping requirements, including entry in the establishment's confidentiality-incidents register
+
+  <Note>
+    Remind the REB that contractual confidentiality obligations to a sponsor do not override statutory breach notification obligations. A sponsor clause that requires the investigator to seek sponsor approval before notifying regulatory authorities of an incident is legally unenforceable to the extent it conflicts with Law 5, Law 25, or PIPEDA timelines.
+  </Note>
+</Accordion>
+
+## Privacy Review Legal Checklist
+
+<Steps>
+  <Step title="Identify Applicable Legislation">
+    Confirm which Québec statutes (Law 5, _Civil Code_ arts. 20–25, Law 25) and, where relevant, federal statutes (PIPEDA, Privacy Act) apply. Document the basis for your conclusion in your REB review notes.
+  </Step>
+  <Step title="Classify Data Elements">
+    Confirm that all data elements in the protocol are classified as identifiable, coded/pseudonymized, de-identified, or anonymized, and that the appropriate governance measures apply to each class.
+  </Step>
+  <Step title="Confirm Legal Basis for Information Use">
+    Verify that the protocol identifies the legal basis for collecting, using, or communicating personal information (written consent under art. 20/24 CCQ; Law 5 research-without-consent authorization by an MSSS-designated REB; Law 25 research pathway; or anonymization).
+  </Step>
+  <Step title="Review Data Minimization">
+    Assess whether the scope of information collection is proportionate to the research objectives. Flag over-collection.
+  </Step>
+  <Step title="Assess Retention and Destruction">
+    Confirm that retention periods are specified, legally justified, and that a secure destruction method is described.
+  </Step>
+  <Step title="Review Data Security Measures">
+    Confirm that encryption, access controls, storage location, and third-party processing arrangements are described and adequate.
+  </Step>
+  <Step title="Evaluate Communications Outside Québec">
+    If applicable, confirm that an **ÉFVP** has been completed, an information-sharing / data-processing agreement is in place, and that participants will be informed of communications outside Québec.
+  </Step>
+  <Step title="Confirm Breach / Incident Response Plan">
+    Verify that a confidentiality-incident response plan is included and is consistent with Law 5, Law 25, PIPEDA (where applicable), and institutional policy.
+  </Step>
+  <Step title="Check Consistency with Consent Form">
+    Confirm that the privacy disclosures in the consent form match the data governance provisions in the protocol. Inconsistencies are a common deficiency — and, given the CCQ art. 24 written-form requirement, a defective consent form has direct legal consequences.
+  </Step>
+</Steps>

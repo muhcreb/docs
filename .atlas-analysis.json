@@ -1,0 +1,108 @@
+{
+  "projectType": "general",
+  "projectName": "REB Legal Representative Knowledge Base",
+  "projectDescription": "A knowledge base for legal representatives serving on hospital Research Ethics Boards, supporting onboarding and ongoing training.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Onboarding",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "onboarding/introduction",
+              "onboarding/role-overview",
+              "onboarding/reb-structure"
+            ]
+          },
+          {
+            "group": "Foundations",
+            "pages": [
+              "onboarding/legal-framework",
+              "onboarding/ethical-principles",
+              "onboarding/key-regulations"
+            ]
+          },
+          {
+            "group": "Your First Meeting",
+            "pages": [
+              "onboarding/meeting-prep",
+              "onboarding/conflict-of-interest",
+              "onboarding/confidentiality"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Protocol Review",
+        "groups": [
+          {
+            "group": "Review Process",
+            "pages": [
+              "review/overview",
+              "review/submission-types",
+              "review/review-levels"
+            ]
+          },
+          {
+            "group": "Legal Assessment",
+            "pages": [
+              "review/informed-consent",
+              "review/privacy-and-data",
+              "review/liability-and-indemnity",
+              "review/vulnerable-populations"
+            ]
+          },
+          {
+            "group": "Decisions & Follow-up",
+            "pages": [
+              "review/reb-decisions",
+              "review/amendments",
+              "review/adverse-events",
+              "review/study-closure"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Regulatory Reference",
+            "pages": [
+              "reference/tcps2",
+              "reference/ich-gcp",
+              "reference/privacy-legislation",
+              "reference/institutional-policies"
+            ]
+          },
+          {
+            "group": "Ongoing Training",
+            "pages": [
+              "reference/continuing-education",
+              "reference/case-studies",
+              "reference/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Role orientation for legal representatives on REBs",
+    "Step-by-step protocol review guidance",
+    "Informed consent legal review checklist",
+    "Privacy and data protection assessment",
+    "Liability and indemnity considerations",
+    "Regulatory framework reference (TCPS2, ICH-GCP, PIPEDA/PHIPA)",
+    "Conflict-of-interest and confidentiality guidance",
+    "Adverse event and amendment review procedures",
+    "Case studies for ongoing training",
+    "FAQ for common legal questions"
+  ],
+  "publicApiSurface": []
+}

@@ -1,0 +1,214 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "REB Member Knowledge Base",
+  "colors": {
+    "primary": "#ef7025",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Contact Support",
+      "href": "mailto:reb-support@yourhospital.ca"
+    }
+  },
+  "navigation": {
+    "products": [
+      {
+        "product": "Legal Representatives",
+        "icon": "scale-balanced",
+        "description": "Onboarding and reference for legal representatives on the REB",
+        "tabs": [
+          {
+            "tab": "Onboarding",
+            "groups": [
+              {
+                "group": "Welcome",
+                "pages": [
+                  "onboarding/introduction",
+                  "onboarding/role-overview",
+                  "onboarding/reb-structure"
+                ]
+              },
+              {
+                "group": "Foundations",
+                "pages": [
+                  "onboarding/legal-framework",
+                  "onboarding/ethical-principles",
+                  "onboarding/key-regulations"
+                ]
+              },
+              {
+                "group": "Your First Meeting",
+                "pages": [
+                  "onboarding/meeting-prep",
+                  "onboarding/conflict-of-interest",
+                  "onboarding/confidentiality"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Protocol Review",
+            "groups": [
+              {
+                "group": "Review Process",
+                "pages": [
+                  "review/overview",
+                  "review/submission-types",
+                  "review/review-levels"
+                ]
+              },
+              {
+                "group": "Legal Assessment",
+                "pages": [
+                  "review/informed-consent",
+                  "review/privacy-and-data",
+                  "review/liability-and-indemnity",
+                  "review/vulnerable-populations"
+                ]
+              },
+              {
+                "group": "Decisions & Follow-up",
+                "pages": [
+                  "review/reb-decisions",
+                  "review/amendments",
+                  "review/adverse-events",
+                  "review/study-closure"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Reference",
+            "groups": [
+              {
+                "group": "Regulatory Reference",
+                "pages": [
+                  "reference/tcps2",
+                  "reference/ich-gcp",
+                  "reference/privacy-legislation",
+                  "reference/institutional-policies"
+                ]
+              },
+              {
+                "group": "Ongoing Training",
+                "pages": [
+                  "reference/continuing-education",
+                  "reference/case-studies",
+                  "reference/faq"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Community Representatives",
+        "icon": "people-group",
+        "description": "Onboarding and reference for community representatives on the REB",
+        "tabs": [
+          {
+            "tab": "Onboarding",
+            "groups": [
+              {
+                "group": "Welcome",
+                "pages": [
+                  "community/onboarding/introduction",
+                  "community/onboarding/role-overview",
+                  "community/onboarding/reb-structure"
+                ]
+              },
+              {
+                "group": "Foundations",
+                "pages": [
+                  "community/onboarding/history-of-rebs",
+                  "community/onboarding/ethical-principles",
+                  "community/onboarding/key-regulations"
+                ]
+              },
+              {
+                "group": "Your First Meeting",
+                "pages": [
+                  "community/onboarding/meeting-prep",
+                  "community/onboarding/conflict-of-interest",
+                  "community/onboarding/confidentiality"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Protocol Review",
+            "groups": [
+              {
+                "group": "Review Process",
+                "pages": [
+                  "community/review/overview",
+                  "community/review/submission-types",
+                  "community/review/review-levels"
+                ]
+              },
+              {
+                "group": "Community Perspective",
+                "pages": [
+                  "community/review/informed-consent",
+                  "community/review/participant-burden",
+                  "community/review/privacy-and-data",
+                  "community/review/vulnerable-populations"
+                ]
+              },
+              {
+                "group": "Decisions & Follow-up",
+                "pages": [
+                  "community/review/reb-decisions",
+                  "community/review/amendments",
+                  "community/review/adverse-events",
+                  "community/review/study-closure"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Reference",
+            "groups": [
+              {
+                "group": "Ethical & Regulatory Reference",
+                "pages": [
+                  "community/reference/tcps2",
+                  "community/reference/ich-gcp",
+                  "community/reference/privacy-legislation",
+                  "community/reference/institutional-policies"
+                ]
+              },
+              {
+                "group": "Ongoing Training",
+                "pages": [
+                  "community/reference/continuing-education",
+                  "community/reference/case-studies",
+                  "community/reference/faq"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  },
+  "banner": {
+    "content": "DRAFT",
+    "type": "critical"
+  },
+  "interaction": {
+    "drilldown": true
+  }
+}
