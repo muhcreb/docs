@@ -88,7 +88,7 @@
           },
           {
             "tab": "Reference",
-            "groups": [
+            "pages": [
               {
                 "group": "Regulatory Reference",
                 "pages": [
@@ -105,7 +105,8 @@
                   "reference/case-studies",
                   "reference/faq"
                 ]
-              }
+              },
+              "ai-assistant"
             ]
           }
         ]
